@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Educacion</title>
+</head>
+<body>
+    <header>
+       <svg width="500px" heigth="50px">
+           <image x="-120" xlink:href="Img/logo.svg" width="500px" heigth="500px"></image>
+       </svg>
+        <h1><strong><em>Curriculum Vitae</em></strong></h1>
+    </header>
+    
+    <section>
+
+        
+        <article>
+            <h2><strong>Datos Personales</strong></h2>
+            <h3>Nombres: Edison Antonio</h3>
+            <h3>Apellido: Pujols</h3>
+            <h3>Fecha de Nacimiento: 14 de Abril del 1991</h3>
+            <h3>Lugar de Nacimiento: Azua, Rep. Dom.</h3>
+        </article>
+        
+        <article>
+            <nav>
+                <p><a href="index.html">Datos Personales</a>  |  <a href="experiencia.html">Experiencia</a></p>
+            </nav>
+        </article>
+        
+        <article>
+           <h2>Educacion</h2>
+            <table border="1">
+                <thead>
+                    <th>Año</th>
+                    <th>Institucion</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2017</td>
+                        <td>INFOTEP</td>
+                        <td>Azua, R. D.</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>INFOTEP</td>
+                        <td>Azua, R. D.</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>UTESUR</td>
+                        <td>Azua, R. D.</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <form action="">
+                <h1>Agregar Estudios</h1>
+                <select name="menuDesplegableFecha" id="menuDesplegable">
+                    <option value="fecha1">2018</option>
+                    <option value="fecha2">2017</option>
+                    <option value="fecha2">2016</option>
+                    <option value="fecha4">2015</option>
+                    <option value="fecha5">2014</option>
+                    <option value="fecha6">2013</option>
+                    <option value="fecha7">Cargar Mas</option>
+                </select>
+                <br><br>
+                <label for="requerimientoInstitucion"><strong>Institucion:</strong></label>
+                <input type="text" required id="requerimientoInstitucion" name="reqInstitucion">
+                <br><br>
+                <label for="lugar"><strong>Lugar:</strong></label><br>
+                <textarea name="lugar" id="lugar" cols="30" rows="10"></textarea>
+            </form>
+            
+        </article>
+    </section>
+    
+    <footer>
+        <p>Para mas informacion pueden contactarme al</p>
+        <p>Telefono: (829)221-3532</p>
+        <p>Escribeme a mi correo <a href="mailto:edison.pujols@gmail.com">Pulsando aqui</a></p>
+        <p>ó sigueme en mi cuenta de facebook <a href="https://www.facebook.com/edison.pujols.16" target="_blank">Agregame</a></p>
+    </footer>
+</body>
+</html>
